@@ -13,9 +13,6 @@ firebase.initializeApp(config);
 // Get a reference to the database service
 var database = firebase.database();
 
-// Page url
-var url = "file:///C:/Users/Ryan%20Brooks/Desktop/OSU_CS/CS_361_Software_Engineering_1/Group%20Project/hw6"; 
-
 // Search database
 function searchDatabase()
 {
@@ -36,7 +33,7 @@ function searchDatabase()
               localStorage.setItem("found", "false");
               localStorage.setItem("sourceName", mediaSearch);
           }
-          location.href = url + "/samplesearch.html"; 
+          location.href = "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.html"; 
       }); 
 }
 
