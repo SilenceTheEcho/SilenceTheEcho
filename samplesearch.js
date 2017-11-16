@@ -33,7 +33,7 @@ function searchDatabase()
               localStorage.setItem("found", "false");
               localStorage.setItem("sourceName", mediaSearch);
           }
-          location.href = "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.html"; 
+          location.href = "https://silencetheecho.github.io/SilenceTheEcho/samplesearch"; 
       }); 
 }
 
