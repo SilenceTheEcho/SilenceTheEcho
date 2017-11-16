@@ -1,23 +1,26 @@
 
 # Silence the Echo
     
-Welcome to **Silence The Echo**, the place where broad-minded people come to improve their minds and test their convictions.
+### Welcome to **Silence The Echo**, the place where broad-minded people come to improve their minds and test their convictions.
     
-We all know how good it feels to find someone who sees eye-to-eye with us on the things that matter most.
-    
-The goal of this site is to provide more accurate and
-balanced content to social media users.
+We all know how good it feels to find someone who sees eye-to-eye with us on the things that matter most.  As Aldous Huxley explains,
 
-How It Works:
-In order to provide users with a more balanced
-social media experience, Silence The Echo will first need permission to access your social media 
-news feed.  Once permission is granted, Silence The Echo will review the Media Outlet content
-providers in your feed and will generate a Map of Influence regarding the political bias 
-and information accuracy ratings within 24 hours.
-Once your request has been completed,
-you will be notified either by email or SMS text with a link to access your individual 
-Map of Influence.  You will then be able to request recommendations from more balanced or 
-more accurrate content providers from your Map of Influence page.
+> “To associate with other like-minded people in small, purposeful groups is for the great majority of men and women a source of profound psychological satisfaction.”  --*Beyond the Mexique Bay*
+
+But there's a thorn buried in that "psychological satisfaction"; when we are exposed only to opinions with which we ourselves agree, it is all to easy to convince ourselves that there **are** no other valid opinions.  We come to see those who disagree as separate, different, "other".  Building bridges of **__goodwill__**, of **__understanding__**, of **__policy which meets common goals__** becomes increasingly difficult.
+
+What can we, the tolerant and open-minded people who deplore the chasms opening in society today, combat the natural human tendency to cleave to that which is comfortable?  How can we refrain from listening only to the echo chamber of those who agree with us?  Ralph Waldo Emerson said it best:
+
+> "God offers to every mind its choice between truth and repose. Take which you please, — you can never have both. Between these, as a pendulum, man oscillates. He in whom the **__love of repose__** predominates will accept the first creed, the first philosophy, the first political party he meets, — most likely his father's. He gets rest, commodity, and reputation; but he shuts the door of truth. He in whom the **__love of truth__** predominates will keep himself aloof from all moorings, and afloat. He will **__abstain from dogmatism__**, and recognize all the opposite negations, between which, as walls, his being is swung. He **__submits to the inconvenience of suspense and imperfect opinion__**, but he is a candidate for truth, as the other is not, and respects the highest law of his being."
+
+## The Echo Chamber is Silenced
+
+The goal of this site is to provide more accurate and balanced content to discerning, thoughtful social media users who wish to avoid listening only to their own echoes.  We will perform a customized digital analysis of your social media.  Then, you will have to tools to easily improve the factual accuracy of the digital media you see, and expose yourself to a broader range of viewpoints on today's most important events.
+
+## How It Works:
+
+In order to provide you with a more balanced social media experience, **Silence The Echo** will first need permission to access your social media news feed.  Then, we'll review the media content providers in your feed.  Within 24 hours, we'll generate a custom-made **Echo Chamber Report** detailing the political bias and information accuracy of the media you see every day.  You'll get an e-mail or a text with a link to access your individual report.  You will then be able to request recommendations from more balanced or 
+more accurrate media providers from our web site.
 
 [Create an Account](signup.html)
 
