@@ -1,6 +1,5 @@
 
-# Silence the Echo
-    
+
 ## Welcome to **Silence The Echo**, the place where broad-minded people come to improve their minds and test their convictions.
     
 We all know how good it feels to find someone who sees eye-to-eye with us on the things that matter most.  As Aldous Huxley explains,
