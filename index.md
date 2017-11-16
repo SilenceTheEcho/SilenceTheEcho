@@ -1,5 +1,5 @@
 
-#Silence the Echo
+# Silence the Echo
     
 Welcome to **Silence The Echo**, the place where broad-minded people come to improve their minds and test their convictions.
     
@@ -20,4 +20,5 @@ Map of Influence.  You will then be able to request recommendations from more ba
 more accurrate content providers from your Map of Influence page.
 
 [Create an Account](signup.html)
+
 [FAQS](faqs.html)
