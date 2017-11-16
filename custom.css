@@ -2,7 +2,7 @@ p {
   color: #ddbb0f; 
   /* dark yellow */}
 
-."btn btn-primary" {
+.btn.btn-primary {
   background-color: #72716b;
   /* lighter gray */
 }
