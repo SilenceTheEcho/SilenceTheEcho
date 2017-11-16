@@ -59,7 +59,7 @@
       var credential = firebase.auth.EmailAuthProvider.credential(email, password);
       var auth = firebase.auth();
       var currentUser = auth.currentUser;
-      firebase.auth().signIn(); //added this (DEM)
+   //   firebase.auth().signIn(); //added this (DEM)
       firebase.auth.emailAuthProvider.credential(emailInput.value, passwordInput.value);//added this (DEM)
       firebase.auth.signInWithCredential(credential);//added this (DEM)
       // Step 2
