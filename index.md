@@ -5,8 +5,12 @@
 <body>
     <p><b>How It Works: </b></p>
     
-    <p>Welcome to Silence The Echo.  The goal of this site is to provide more accurate and
-    balanced content to social media users.  </p>
+    Welcome to **Silence The Echo**, the place where broad-minded people come to improve their minds and test their convictions.
+    
+    We all know how good it feels to find someone who sees eye-to-eye with us on the things that matter most.
+    
+    The goal of this site is to provide more accurate and
+    balanced content to social media users.
     
     <p>In order to provide users with a more balanced
     social media experience, Silence The Echo will first need permission to access your social media 
