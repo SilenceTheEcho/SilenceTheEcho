@@ -17,7 +17,7 @@ var database = firebase.database();
 function searchDatabase()
 {
     var mediaSearch = document.getElementById("searchData").value; 
-    return database.ref(mediaSearch).once('value').then(function(snapshot)
+    return database.ref('/media/' + mediaSearch).once('value').then(function(snapshot)
       {
           var mediaSource = snapshot.val(); 
           if (mediaSource != null)
@@ -25,8 +25,7 @@ function searchDatabase()
               localStorage.setItem("found", "true");
               localStorage.setItem("sourceName", mediaSearch);
               localStorage.setItem("accuracy", mediaSource["Accuracy"]);
-              localStorage.setItem("bias", mediaSource["Bias"]);
-              localStorage.setItem("mediaType", mediaSource["Media Type"]); 
+              localStorage.setItem("bias", mediaSource["Bias"]); 
           }
           else
           {
