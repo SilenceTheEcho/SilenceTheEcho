@@ -8,7 +8,6 @@
       <h1 id = "sourceName"></h1> 
       <p id = "accuracy"></p> 
       <p id = "bias"></p>
-      <p id = "mediaType"></p>
       <div>
         <a href = "https://silencetheecho.github.io/SilenceTheEcho/">Home</a>
       </div>
