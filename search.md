@@ -17,7 +17,7 @@
       </form>
     </div>
     <!-- Thanks to clker.com free clip art for the following image -->
-    <img src="https://silencetheecho.github.io/SilenceTheEcho/1195445240416622736jean_victor_balin_arrow_blue_down.svg.thumb.png">
+    <img src="https://silencetheecho.github.io/SilenceTheEcho/1195445240416622736jean_victor_balin_arrow_blue_down.svg.thumb.png" class="center">
     
     <div>
       <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
