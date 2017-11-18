@@ -5,7 +5,8 @@
     <script src= "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.js"></script>
   </head>
   <body>
-    <h1>Testing for Silence The Echo Make it Black</h1>
+    <h1>Bias and Accuracy Check</h1>
+    <h2>Enter the name of a media source.  We'll pull up its ratings for political bias and for factual accuracy.</h2>
     <div>
       <form>
         <fieldset>
