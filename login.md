@@ -76,13 +76,19 @@
     });
   </script>
 <div>
+     <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
+</div>
+<div>
+     <a href="https://silencetheecho.github.io/SilenceTheEcho/faqs">FAQS</a>  
+</div>
+<div>
+     <a href="https://silencetheecho.github.io/SilenceTheEcho/search">See it in action</a>  
+</div>
+<div>
      <a href="https://silencetheecho.github.io/SilenceTheEcho/security">Security and Privacy Standards</a>  
 </div>
-</body>
-<div>
-     <a href="https://silencetheecho.github.io/SilenceTheEcho/how">How to</a>  
-    </div>
-  <div>
-     <a href="https://silencetheecho.github.io/SilenceTheEcho/faqs">FAQS</a>  
-    </div>
+
+
 </html>
+</body>
+
