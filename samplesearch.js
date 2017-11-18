@@ -17,7 +17,7 @@ var database = firebase.database();
 function searchDatabase()
 {
     var mediaSearch = document.getElementById("searchData").value; 
-    return database.ref('/media/' + mediaSearch).once('value').then(function(snapshot)
+    return database.ref('/Media/' + mediaSearch).once('value').then(function(snapshot)
       {
           var mediaSource = snapshot.val(); 
           if (mediaSource != null)
