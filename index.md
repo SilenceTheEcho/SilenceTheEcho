@@ -24,4 +24,4 @@ In order to provide you with a more balanced social media experience, **Silence 
 
 [Sign me in](login.html)
 
-[FAQS](faqs.md)
+[FAQS](faqs.html)
