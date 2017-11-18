@@ -1,0 +1,6 @@
+framework module Pods_FirePhotos {
+  umbrella header "Pods-FirePhotos-umbrella.h"
+
+  export *
+  module * { export * }
+}

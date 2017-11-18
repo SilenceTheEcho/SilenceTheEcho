@@ -1,0 +1,100 @@
+
+
+
+//Set Value to a user, this will wipe out all of the values and replace them, this does not auto increment
+
+        let usernameValues = ["username": username]
+        let values = [uid: usernameValues]
+        Database.database().reference().child("users").setValue(values, withCompletionBlock: { (err, ref) in
+            
+            if let err = err {
+                print("Failed to save user info into db:", err)
+                return
+            }
+            
+            print("Successfully saved user info to db")
+            
+        })
+
+
+//updateChildValues will create a new entry "users"
+Database.database().reference().child("users").updateChildValues(values, withCompletionBlock: { (err, ref) in
+
+if let err = err {
+print("Failed to save user info into db:", err)
+return
+}
+
+print("Successfully saved user info to db")
+
+})
+
+
+//how to make circular buttons
+plusPhotoButton.layer.cornerRadius = plusPhotoButton.frame.width/2
+
+
+//how to indent text -> command+] or command+[
+
+//how to comment text in a block command + /
+
+//how to create a random filename
+let filename = NSUUID().uuidString
+
+
+//how to see size of a picture file in a URL session
+URLSession.shared.dataTask(with: url) { (data, response, err) in
+//check for the error, then construct the image using data
+
+print(data)
+}.resume()
+
+
+//How to make a struct with a constructor method
+struct User {
+let username: String
+let profileImageUrl: String
+
+//Constructor method for your Struct
+init(dictionary: [String: Any]) {
+self.username = dictionary["username"] as? String ?? ""
+self.profileImageUrl = dictionary["profileImageUrl"] as? String ?? ""
+}
+}
+
+/Check status of HTTP response
+//Gets Status of HTTP 200
+//                print("\n\nRESPONSE\n\n", response)
+//                print("\n\nRESPONSE END")
+
+
+//This can be used to print the number of bytes in the data (picture)
+//print(data)
+
+
+//Accessing a dictionary's value by its key
+//            let profileImageUrl = dictionary["profileImageUrl"] as? String
+//            let username = dictionary["username"] as? String
+//
+
+//Pop view controller off the stack
+func handleAlreadyHaveAccount() {
+navigationController?.popViewController(animated: true)
+
+}
+
+
+//This function provides a third optional call and sets its default as a UIViewController()
+fileprivate func templateNavController(unselectedImage: UIImage, selectedImage: UIImage, rootViewController: UIViewController = UIViewController()) -> UINavigationController {
+let viewController = rootViewController
+let navController = UINavigationController(rootViewController: viewController)
+navController.tabBarItem.image = unselectedImage
+navController.tabBarItem.selectedImage = selectedImage
+return navController
+}
+
+//Command  + control + e
+//lets you change every word selected
+
+
+

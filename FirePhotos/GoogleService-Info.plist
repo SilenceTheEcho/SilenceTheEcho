@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>765642044089-tjhsic1m3o2k10rmi5do0fl7k6vj5l4d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.765642044089-tjhsic1m3o2k10rmi5do0fl7k6vj5l4d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCp7KseWZYRl_l0YP47ti_LLrf92aFVD8o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>765642044089</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>polemics.STE</string>
+	<key>PROJECT_ID</key>
+	<string>silencetheecho-efa5e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>silencetheecho-efa5e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:765642044089:ios:c9ab72770203cb42</string>
+	<key>DATABASE_URL</key>
+	<string>https://silencetheecho-efa5e.firebaseio.com</string>
+</dict>
+</plist>
