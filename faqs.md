@@ -1,22 +1,15 @@
 <head>
     <title>FAQS</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     
     <!-- Thanks to https://bootstrapbay.com/blog/customize-bootstrap/ for help with customizing Bootstrap -->
-    <!--
     <link rel="stylesheet" type="text/css" href="custom.css">
-    -->
 </head>
 
 <body>
 
-<!--
-<div class="jumbotron">
--->
-<div markdown="1">
-## Frequently Asked Questions
-</div>
+    <div class="jumbotron">
+        <h2 class="display-3">Frequently Asked Questions</h1>
         <p class="lead">Find out more about Silence The Echo and the work we do.</p>
   <hr class="my-4">
             <p>
@@ -80,10 +73,6 @@
             A: We're always open to differences of opinion!  Let us know how you feel on the "Contact Us" page, and we'll take another look.
         </div>
     </div>
-    <div markdown="1">
-    [Login](login.md)
-    [Home](https://silencetheecho.github.io/SilenceTheEcho)
-    </div>
     
     <p>
         <a href="login.html">Sign Me Up</a>
@@ -95,13 +84,10 @@
         <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>
     </p>
         
-<!--
+
 </div>
--->
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
 </body>
-
-    
