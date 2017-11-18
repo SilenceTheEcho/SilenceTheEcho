@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Silence the Echo</title>
@@ -29,4 +28,4 @@
     </div>
     
   </body>
-</html>
+
