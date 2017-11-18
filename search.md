@@ -15,6 +15,8 @@
         </fieldset>
       </form>
     </div>
+    <img src="https://silencetheecho.github.io/SilenceTheEcho/blue">
+    
     <div>
       <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
     </div>
