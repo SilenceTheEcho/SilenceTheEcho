@@ -25,7 +25,7 @@
     <img src="https://silencetheecho.github.io/SilenceTheEcho/1195445240416622736jean_victor_balin_arrow_blue_down.svg.thumb.png" class="center">
     <br>
     <!-- Thanks to https://www.twittergadget.com/what_is_oauth.htm for the following image (modified from original) -->
-    <img src="https://silencetheecho.github.io/SilenceTheEcho/Twitter.jpg" class="center">
+    <img src="https://silencetheecho.github.io/SilenceTheEcho/Twitter.JPG" class="center">
     <br>
     <!-- Thanks to clker.com free clip art for the following image -->
     <img src="https://silencetheecho.github.io/SilenceTheEcho/1195445240416622736jean_victor_balin_arrow_blue_down.svg.thumb.png" class="center">
