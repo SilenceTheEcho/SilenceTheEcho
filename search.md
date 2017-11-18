@@ -20,8 +20,16 @@
     <p>
     Want to check every media source in your social media account, and get a customized report showing exactly how accurate and balanced your media intake is?  You'll need to create an account with Silence The Echo to have access to this feature.  Here's the general idea:</p>
     <img src="https://silencetheecho.github.io/SilenceTheEcho/I Want a Report with border.JPG" class="center">
+    <br>
     <!-- Thanks to clker.com free clip art for the following image -->
     <img src="https://silencetheecho.github.io/SilenceTheEcho/1195445240416622736jean_victor_balin_arrow_blue_down.svg.thumb.png" class="center">
+    <br>
+    <!-- Thanks to https://www.twittergadget.com/what_is_oauth.htm for the following image (modified from original) -->
+    <img src="https://silencetheecho.github.io/SilenceTheEcho/Twitter.jpg" class="center">
+    <br>
+    <!-- Thanks to clker.com free clip art for the following image -->
+    <img src="https://silencetheecho.github.io/SilenceTheEcho/1195445240416622736jean_victor_balin_arrow_blue_down.svg.thumb.png" class="center">
+    <br>
     
     <div>
       <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
