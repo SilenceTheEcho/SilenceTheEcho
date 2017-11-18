@@ -14,7 +14,7 @@
 <!--
 <div class="jumbotron">
 -->
-        <h2 class="display-3">Frequently Asked Questions</h1>
+## Frequently Asked Questions
         <p class="lead">Find out more about Silence The Echo and the work we do.</p>
   <hr class="my-4">
             <p>
@@ -78,6 +78,9 @@
             A: We're always open to differences of opinion!  Let us know how you feel on the "Contact Us" page, and we'll take another look.
         </div>
     </div>
+    
+    [Login](login.md)
+    [Home](https://silencetheecho.github.io/SilenceTheEcho)
     
     <p>
         <a href="login.html">Sign Me Up</a>
