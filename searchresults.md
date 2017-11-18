@@ -22,7 +22,7 @@
       else
       {
           document.getElementById("sourceName").textContent = localStorage.getItem("sourceName");
-          document.getElementById("accuracy").textContent = "We did not find a media source by that name.";
+          document.getElementById("accuracy").textContent = "So sorry, we did not find a media source by that name.";
       }
     </script>
   </body>
