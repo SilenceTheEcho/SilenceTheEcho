@@ -6,7 +6,7 @@
     <script src= "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.js"></script>
   </head>
   <body>
-    <h1>Testing for Silence The Echo</h1>
+    <h1>Testing for Silence The Echo Make it Black</h1>
     <div>
       <form>
         <fieldset>
