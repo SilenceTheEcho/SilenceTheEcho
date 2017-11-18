@@ -3,7 +3,7 @@
     <title>Silence the Echo</title>
     <script src = "https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
     <script src= "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.js"></script>
-    <link rel="stylesheet" type="text/css" href="imagesCentered.css"></link>
+    <link rel="stylesheet" type="text/css" href="imagesCentered.css">
   </head>
   <body>
     <h1>Bias and Accuracy Check</h1>
