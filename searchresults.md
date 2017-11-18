@@ -31,7 +31,6 @@
           document.getElementById("sourceName").textContent = localStorage.getItem("sourceName"); 
           document.getElementById("accuracy").textContent = "Accuracy: " + localStorage.getItem("accuracy"); 
           document.getElementById("bias").textContent = "Bias: " + localStorage.getItem("bias"); 
-          document.getElementById("mediaType").textContent = "Media Type: " + localStorage.getItem("mediaType");
       }
       else
       {
