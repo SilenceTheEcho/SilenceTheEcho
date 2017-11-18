@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Bias and Accuracy Check</h1>
-    <h2>Enter the name of a media source.  We'll pull up its ratings for political bias and for factual accuracy.</h2>
+    <h3>Enter the name of a media source.  We'll pull up its ratings for political bias and for factual accuracy.</h3>
     <div>
       <form>
         <fieldset>
