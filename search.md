@@ -19,7 +19,7 @@
     <br>
     <p>
     Want to check every media source in your social media account, and get a customized report showing exactly how accurate and balanced your media intake is?  You'll need to create an account with Silence The Echo to have access to this feature.  Here's the general idea:</p>
-    <img src="SilenceTheEcho/I Want a Report with border.JPG" class="center">
+    <img src="https://silencetheecho.github.io/SilenceTheEcho/I Want a Report with border.JPG" class="center">
     <!-- Thanks to clker.com free clip art for the following image -->
     <img src="https://silencetheecho.github.io/SilenceTheEcho/1195445240416622736jean_victor_balin_arrow_blue_down.svg.thumb.png" class="center">
     
