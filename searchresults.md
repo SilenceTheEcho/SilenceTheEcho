@@ -9,7 +9,21 @@
       <p id = "accuracy"></p> 
       <p id = "bias"></p>
       <p id = "mediaType"></p>
-      <a href = "https://silencetheecho.github.io/SilenceTheEcho/">Home</a>
+      <div>
+        <a href = "https://silencetheecho.github.io/SilenceTheEcho/">Home</a>
+      </div>
+      <div>
+        <a href = "https://silencetheecho.github.io/SilenceTheEcho/login">Log in or Register</a>
+      </div>
+      <div>
+        <a href = "https://silencetheecho.github.io/SilenceTheEcho/faqs">FAQS</a>
+      </div>
+      <div>
+        <a href = "https://silencetheecho.github.io/SilenceTheEcho/search">Try a different search</a>
+      </div>
+      <div>
+        <a href = "https://silencetheecho.github.io/SilenceTheEcho/security">Security and Privacy Standards</a>
+      </div>
     </section> 
     <script>
       if (localStorage.getItem("found") == "true")
