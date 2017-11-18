@@ -20,6 +20,10 @@ that their personal info will be secure. Here are some of the steps we've taken 
 *  All passwords for user accounts are stored in an AES 256 encrypted database.
 
 [Home](index.md)
+
 [Log in](login.md)
+
 [FAQs](faqs.html)
+
 [See it in action](search.html)
+
