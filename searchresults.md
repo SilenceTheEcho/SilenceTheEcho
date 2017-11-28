@@ -6,7 +6,7 @@
     <script src= "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.js"></script>
   </head>
   <body>
-    <section>
+    <section id = "contentSect">
       <h1 id = "sourceName"></h1> 
       <p id = "accuracy"></p> 
       <p id = "bias"></p>
