@@ -36,6 +36,14 @@ function searchDatabase()
       }); 
 }
 
-
+// Update database
+function updateDatabase(mediaSearch)
+{
+    return database.ref('/Requests/' + mediaSearch).set
+    ({
+        Accuracy: "Unknown",
+        Bias: "Unknown"
+    });
+}
 
 
