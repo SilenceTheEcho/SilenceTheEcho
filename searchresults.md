@@ -1,13 +1,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Search Results</title>     
+    <title>Search Results</title>
+    <script src = "https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script src= "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.js"></script>
   </head>
   <body>
     <section>
       <h1 id = "sourceName"></h1> 
       <p id = "accuracy"></p> 
       <p id = "bias"></p>
+      <p id = "addSource"></p> 
       <div>
         <a href = "https://silencetheecho.github.io/SilenceTheEcho/">Home</a>
       </div>
@@ -34,7 +37,19 @@
       else
       {
           document.getElementById("sourceName").textContent = localStorage.getItem("sourceName");
-          document.getElementById("accuracy").textContent = "So sorry, we did not find a media source by that name.";
+          document.getElementById("accuracy").textContent = "We did not find a media source by that name.";
+          document.getElementById("addSource").textContent = "Would you like to request that this media source be added to our database?";
+       
+          var buttonResponse = document.createElement("p");
+          buttonResponse.textContent = "We have received your request"; 
+          var requestButton = document.createElement("button");
+          requestButton.textContent = "Add Source";
+          requestButton.addEventListener("click", function()
+          {
+              updateDatabase(document.getElementById("sourceName").textContent);
+              document.getElementById("contentSect").appendChild(buttonResponse); 
+          }); 
+          document.getElementById("contentSect").appendChild(requestButton);
       }
     </script>
   </body>
