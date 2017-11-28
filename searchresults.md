@@ -6,7 +6,7 @@
     <script src= "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/samplesearch.js"></script>
   </head>
   <body>
-    <section id = "contentSect>
+    <section id = "contentSect">
       <h1 id = "sourceName"></h1> 
       <p id = "accuracy"></p> 
       <p id = "bias"></p>
@@ -39,19 +39,19 @@
     <br>                                          
     <div>
         <a href = "https://silencetheecho.github.io/SilenceTheEcho/">Home</a>
-      </div>
-      <div>
+    </div>
+    <div>
         <a href = "https://silencetheecho.github.io/SilenceTheEcho/login">Log in or Register</a>
-      </div>
-      <div>
+    </div>
+    <div>
         <a href = "https://silencetheecho.github.io/SilenceTheEcho/faqs">FAQS</a>
-      </div>
-      <div>
+    </div>
+    <div>
         <a href = "https://silencetheecho.github.io/SilenceTheEcho/search">Try a different search</a>
-      </div>
-      <div>
+    </div>
+    <div>
         <a href = "https://silencetheecho.github.io/SilenceTheEcho/security">Security and Privacy Standards</a>
-      </div>
+    </div>
   </body>
 </html>
 
