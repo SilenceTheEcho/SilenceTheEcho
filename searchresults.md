@@ -39,7 +39,6 @@
           document.getElementById("sourceName").textContent = localStorage.getItem("sourceName");
           document.getElementById("accuracy").textContent = "We did not find a media source by that name.";
           document.getElementById("addSource").textContent = "Would you like to request that this media source be added to our database?";
-       
           var buttonResponse = document.createElement("p");
           buttonResponse.textContent = "We have received your request"; 
           var requestButton = document.createElement("button");
