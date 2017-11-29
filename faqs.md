@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     
     <!-- Thanks to https://bootstrapbay.com/blog/customize-bootstrap/ for help with customizing Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="custom.css">
+<!--    <link rel="stylesheet" type="text/css" href="custom.css"> -->
 </head>
 
 <body>
