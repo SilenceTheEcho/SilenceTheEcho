@@ -14,7 +14,9 @@
     <p class="Answer">
         A: Your request should be complete within 24 hours.
     </p>
-    
+    <p class="Question">
+        Q:  How will I know when my report is complete?
+    </p>
     <p class="Question">
        Q: How will I know when my report is complete?
     </p>
