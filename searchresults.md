@@ -25,7 +25,7 @@
           document.getElementById("accuracy").textContent = "We did not find a media source by that name.";
           document.getElementById("addSource").textContent = "Would you like to request that this media source be added to our database?";
           var buttonResponse = document.createElement("p");
-          buttonResponse.textContent = "We have received your request"; 
+          buttonResponse.textContent = "We have received your request.  Our impartial panel of media adjudicators will review the media produced by " + document.getElementById("sourceName").textContent + " and enter the results of its findings into our database."; 
           var requestButton = document.createElement("button");
           requestButton.textContent = "Add Source";
           requestButton.addEventListener("click", function()
