@@ -1,5 +1,6 @@
 <head>
     <title>FAQS</title>
+    <link rel="stylesheet" type="text/css" href="faqCustom.css">
 </head>
 
 <body>
