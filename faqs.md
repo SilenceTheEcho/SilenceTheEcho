@@ -1,28 +1,16 @@
 <head>
     <title>FAQS</title>
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">  -->
-    
-    <!-- Thanks to https://bootstrapbay.com/blog/customize-bootstrap/ for help with customizing Bootstrap -->
-<!--    <link rel="stylesheet" type="text/css" href="custom.css"> -->
 </head>
 
 <body>
-
-    <div >
-        <h2 class="display-3">Frequently Asked Questions</h1>
-        <p class="lead">Find out more about Silence The Echo and the work we do.</p>
- <!-- <hr class="my-4">  -->
-    <p>
-    <a class="btn btn-primary" data-toggle="collapse" href="#howLong" aria-expanded="false" aria-controls="howLong">
-         Q: After my request is submitted, how long will it take to generate an Echo Chamber Report?
-    </a>
+    <h1>Frequently Asked Questions</h1>
+    <h3>Find out more about Silence The Echo and the work we do.</h3>
+    <p class="Question">
+        Q: After my request is submitted, how long will it take to generate an Echo Chamber Report?
     </p>
-    
-    <div class="collapse" id="howLong">
-        <div class="card card-body">
-            A: Your request should be complete within 24 hours.
-        </div>
-    </div>
+    <p class="Answer">
+        A: Your request should be complete within 24 hours.
+    </p>
     
     <p>
     <a class="btn btn-primary" data-toggle="collapse" href="#receiveNotice" aria-expanded="false" aria-controls="receiveNotice">
@@ -88,14 +76,5 @@
    <p>
         <a href=security.html>Security and Privacy Standards</a>
     </p>
-     
-     
-    
-        
 
-</div>
-    
-<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>  -->
 </body>
