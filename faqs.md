@@ -8,7 +8,7 @@
 
 <body>
 
-    <div class="jumbotron">
+    <div >
         <h2 class="display-3">Frequently Asked Questions</h1>
         <p class="lead">Find out more about Silence The Echo and the work we do.</p>
   <hr class="my-4">
