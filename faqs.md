@@ -5,6 +5,7 @@
 <body>
     <h1>Frequently Asked Questions</h1>
     <h3>Find out more about Silence The Echo and the work we do.</h3>
+    <br>
     <p class="Question">
         Q: After my request is submitted, how long will it take to generate an Echo Chamber Report?
     </p>
@@ -49,7 +50,7 @@
         <a href="search.html">See it in action</a>
     </p>
    <p>
-        <a href=security.html>Security and Privacy Standards</a>
+        <a href="security.html">Security and Privacy Standards</a>
     </p>
 
 </body>
