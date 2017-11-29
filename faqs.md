@@ -4,6 +4,7 @@
 </head>
 
 <body>
+    <p> This should be red </p>
     <h1>Frequently Asked Questions</h1>
     <h3>Find out more about Silence The Echo and the work we do.</h3>
     <br>
