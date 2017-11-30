@@ -26,9 +26,11 @@
     <div>
       <input id="password" type="password" placeholder="Password...">
     </div>
-    <div id = "signButtons">
+    <div>
       <button id="sign-in">Sign In/Register</button>
       <button id="sign-out">Sign Out</button>
+      <br>
+      <p id = "signedIn"></p>
     </div>
      <a href="https://silencetheecho.github.io/SilenceTheEcho/forgotPassword">Forgot password?</a> 
   </form>
