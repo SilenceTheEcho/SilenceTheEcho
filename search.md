@@ -11,7 +11,7 @@
     <div>
       <form>
         <fieldset>
-          <input type = "text" name = "searchData" id = "searchData"> 
+          <input type = "text" name = "searchData" id = "searchData" required> 
           <input type = "button" value = "Search Database" id = "searchSubmit" onclick = "searchDatabase()">
         </fieldset>
       </form>
