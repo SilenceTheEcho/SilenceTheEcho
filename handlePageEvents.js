@@ -26,8 +26,10 @@
             }
             else console.log(errorMessage);
         });
-        window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search'; 
-        // end add by patrick
+        if(signedInUser){
+            window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search'; 
+        } 
+            // end add by patrick
     });
     document.querySelector('#sign-out').addEventListener('click', function(e) {
       e.preventDefault();
