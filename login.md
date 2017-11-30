@@ -5,8 +5,6 @@
 
 <head>
   <title>Silence the Echo Chamber</title>
-  <script src="handlePageEvents.js"></script>
-  <script>window.onload(userSignedIn());</script>
 </head>
 
 <body>
@@ -42,8 +40,12 @@
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 <script src="initializeFirebase.js"></script>
   
-  <!--Handle auth events-->
+<!--Handle auth events-->
 <script src="handleAuth.js"></script> 
+
+<!--Handle page events-->
+<script src="handlePageEvents.js"></script>
+<script>window.onload(userSignedIn());</script>
  
 <div>
      <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
