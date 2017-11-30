@@ -54,7 +54,7 @@
         Q:  Can I talk about religion and politics at the dinner table now, as long as I'm quoting media sources that have been cleared by Silence The Echo?
     </p>
     <p class="Answer">
-       A:  No.  While we're flattered by positive references to our services, religion and politics are still in the same category as "Do you really think you should have that second helping?"  Best to fall back to "How about them Yankees?"
+       A:  No.  While we're flattered by positive references to our services, religion and politics are still in the same category as "Do you really think you should have that second helping?"  Best to fall back to "How about them Yankees?" instead.
     </p>
     
     <p>
