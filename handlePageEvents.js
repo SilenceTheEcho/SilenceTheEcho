@@ -21,7 +21,7 @@
             var errorMessage = error.message;
              // ...
             // If signed in user is null, create account
-            if(errorCode == auth/user-not-found){
+            if(errorCode == "auth/user-not-found"){
                 signedInUser = firebase.auth().createUserWithEmailAndPassword(email, password);
             }
         });
