@@ -24,22 +24,6 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
                     });
             } else console.log(errorMessage);
       });
-      
-      // If user sign in successful, redirect to search.
-      //window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search';
-      if (firebase.auth().currentUser)
-      {
-        var signedIn = document.createElement("p");
-        signedIn.id = "signedIn";
-        signedIn.textContent = "You are signed in as " + firebase.auth().currentUser["email"];
-        document.getElementById("signButtons").appendChild(signedIn);
-      }
-      else
-      {
-        var signedIn = document.getElementById("signedIn");
-        if (signedIn)
-            document.getElementById("signButtons").removeChild(signedIn);
-      }
 });
         
 document.querySelector('#sign-out').addEventListener('click', function(e) {
@@ -47,3 +31,19 @@ document.querySelector('#sign-out').addEventListener('click', function(e) {
     e.stopPropagation();
     firebase.auth().signOut();
 });
+
+// If user sign in successful, redirect to search.
+//window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search';
+if (firebase.auth().currentUser)
+{
+   var signedIn = document.createElement("p");
+   signedIn.id = "signedIn";
+   signedIn.textContent = "You are signed in as " + firebase.auth().currentUser["email"];
+   document.getElementById("signButtons").appendChild(signedIn);
+}
+else
+{
+   var signedIn = document.getElementById("signedIn");
+   if (signedIn)
+       document.getElementById("signButtons").removeChild(signedIn);
+}
