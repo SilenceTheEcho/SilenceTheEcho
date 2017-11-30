@@ -15,11 +15,17 @@
       //  The user link will fail if the user has already been created, so catch the error and sign in.
         // Added this - Patrick, commented out lines 6, 10, 11
         // Sign in user
-        var signedInUser = firebase.auth().signInWithEmailAndPassword(email, password);
-        // If signed in user is null, create account
-        if(!signedInUser){
-            signedInUser = firebase.auth().createUserWithEmailAndPassword(email, password);
-        }
+        var signedInUser = firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+            // Handle Errors here.
+            var errorCode = error.code;
+            var errorMessage = error.message;
+             // ...
+            // If signed in user is null, create account
+            if(errorCode == auth/user-not-found){
+                signedInUser = firebase.auth().createUserWithEmailAndPassword(email, password);
+            }
+        });
+        
         // end add by patrick
     });
     document.querySelector('#sign-out').addEventListener('click', function(e) {
