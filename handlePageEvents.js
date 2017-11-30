@@ -3,9 +3,8 @@
       e.stopPropagation();
       var email = document.querySelector('#email').value;
       var password = document.querySelector('#password').value
-      var credential = firebase.auth.EmailAuthProvider.credential(email, password);
-      var auth = firebase.auth();
-      var currentUser = auth.currentUser;
+      var credential = firebase.auth().EmailAuthProvider.credential(email, password);
+      var currentUser = firebase.auth().currentUser;
    //   firebase.auth().signIn(); //added this (DEM)
      // firebase.auth.emailAuthProvider.credential(emailInput.value, passwordInput.value);//added this (DEM)  
     //  firebase.auth.signInWithCredential(credential);//added this (DEM)
@@ -16,10 +15,10 @@
       //  The user link will fail if the user has already been created, so catch the error and sign in.
         // Added this - Patrick, commented out lines 10, 11
         // Sign in user
-        var signedInUser = firebase.auth.signInWithEmailAndPassword(email, password);
+        var signedInUser = firebase.auth().signInWithEmailAndPassword(email, password);
         // If signed in user is null, create account
         if(!signedInUser){
-            signedInUser = firebase.auth.createUserWithEmailAndPassword(email, password);
+            signedInUser = firebase.auth().createUserWithEmailAndPassword(email, password);
         }
         // end add by patrick
     });
