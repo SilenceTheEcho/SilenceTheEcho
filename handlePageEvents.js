@@ -46,4 +46,3 @@ function userSignedIn()
          signedIn.textContent = "";
       }
 }
-userSignedIn();
