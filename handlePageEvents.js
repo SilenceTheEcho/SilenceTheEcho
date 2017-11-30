@@ -3,7 +3,7 @@
       e.stopPropagation();
       var email = document.querySelector('#email').value;
       var password = document.querySelector('#password').value
-      var credential = firebase.auth().EmailAuthProvider.credential(email, password);
+   //   var credential = firebase.auth().EmailAuthProvider.credential(email, password); commented this out (Patrick)
       var currentUser = firebase.auth().currentUser;
    //   firebase.auth().signIn(); //added this (DEM)
      // firebase.auth.emailAuthProvider.credential(emailInput.value, passwordInput.value);//added this (DEM)  
@@ -13,7 +13,7 @@
       //  If there is no current user, log in with auth.signInWithCredential(credential)
       //  If there is a current user an it's anonymous, atttempt to link the new user with firebase.auth().currentUser.link(credential)
       //  The user link will fail if the user has already been created, so catch the error and sign in.
-        // Added this - Patrick, commented out lines 10, 11
+        // Added this - Patrick, commented out lines 6, 10, 11
         // Sign in user
         var signedInUser = firebase.auth().signInWithEmailAndPassword(email, password);
         // If signed in user is null, create account
