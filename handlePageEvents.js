@@ -26,7 +26,7 @@
             }
             else console.log(errorMessage);
         });
-        window.location.href = '/search'; 
+        window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search'; 
         // end add by patrick
     });
     document.querySelector('#sign-out').addEventListener('click', function(e) {
