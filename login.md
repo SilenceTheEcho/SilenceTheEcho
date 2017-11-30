@@ -15,7 +15,7 @@
       Our extensive media database is searchable by anyone who'd like to know which media sources they can trust.  No account or login required!
     </h3>
     <h3>
-      To receive our customized Echo Chamber Report, which analyzes the media sources in your social media feed, you'll need to register for a free account.  Your information will never be used for any purpose other than generating and delivering your customized Echo Chamber Report.
+      To receive our customized <a href="https://silencetheecho.github.io/SilenceTheEcho/search">Echo Chamber Report</a>, which analyzes the media sources in your social media feed, you'll need to register for a free account.  Your information will never be used for any purpose other than generating and delivering your customized Echo Chamber Report.
     </h3>
     <h3>
       Want to get a recommendation of a trustworthy, less politically-biased media source?  Registered users can receive an unlimited number of media recommendations for no charge.
