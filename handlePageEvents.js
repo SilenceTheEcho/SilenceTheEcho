@@ -15,8 +15,8 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
             // If signed in user is null, create account
             if(errorCode == "auth/user-not-found"){
                   signedInUser = firebase.auth().createUserWithEmailAndPassword(email, password);
-                  var user = firebase.auth().currentUser;
-                  user.sendEmailVerification().then(function() {
+                  //var user = firebase.auth().currentUser;
+                  signedInUser.sendEmailVerification().then(function() {
                         // Email sent.
                   }).catch(function(error) {
                     // An error happened.
