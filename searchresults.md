@@ -10,14 +10,17 @@
       <h1 id = "sourceName"></h1> 
       <p id = "accuracy"></p> 
       <p id = "bias"></p>
-      <p id = "addSource"></p> 
+      <p id = "addSource"></p>
+      <p id = "explanation"></p>
     </section> 
     <script>
       if (localStorage.getItem("found") == "true")
       { 
           document.getElementById("sourceName").textContent = localStorage.getItem("sourceName"); 
           document.getElementById("accuracy").textContent = "Accuracy: " + localStorage.getItem("accuracy"); 
-          document.getElementById("bias").textContent = "Bias: " + localStorage.getItem("bias"); 
+          document.getElementById("bias").textContent = "Bias: " + localStorage.getItem("bias");
+          document.getElementById("explanation").textContent =
+          "Accuracy scores range from 1 to 100.  Lower accuracy scores imply that the media source is providing media for entertainment or political purposes, and should not be a trusted source for news facts.  Accuracy scores above 75 are generally trustworthy.  Bias scores range from Left Bias to Right Bias.  A completely unbiased source would be 'Least Bias'.";
       }
       else
       {
