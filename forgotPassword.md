@@ -14,7 +14,7 @@
       <input id="email" type="text" placeholder="Email...">
     </div>
       <div>
-      <button id="submit" type="submit">Reset PasswordSubmit</button>
+      <button id="submit" type="submit">Reset Password</button>
     </div>
   </form>
   
@@ -25,15 +25,6 @@
   <!--Include firebase.js  -->
   
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
-<script>
- var auth = firebase.auth();
-var emailAddress = "user@example.com";
+<script src="passwordReset.js"</script>
 
-auth.sendPasswordResetEmail(emailAddress).then(function() {
-  // Email sent.
-}).catch(function(error) {
-  // An error happened.
-});
-
-</script>
 </body>
