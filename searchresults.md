@@ -20,7 +20,7 @@
           document.getElementById("accuracy").textContent = "Accuracy: " + localStorage.getItem("accuracy"); 
           document.getElementById("bias").textContent = "Bias: " + localStorage.getItem("bias");
           document.getElementById("explanation").textContent =
-          "Accuracy scores range from 1 to 100.  Lower accuracy scores imply that the media source is providing media for entertainment or political purposes, and should not be a trusted source for news facts.  Accuracy scores above 75 are generally trustworthy.  Bias judgments range from Left Bias to Right Bias.  A judgment of Left Bias means that the media source uses language sympathetic to liberal causes, and covers stories critical towards conservatism.  A judgment of Right Bias means that the media source uses language critical of liberal causes, and covers stories sympathetic towards conservatism.  A completely unbiased source would be 'Least Bias'.";
+          "Accuracy scores range from 1 to 100.  Lower accuracy scores imply that the media source is providing media for entertainment or political purposes, and should not be a trusted source for news facts.  Accuracy scores above 75 are generally trustworthy.  Bias judgments range from Left Bias to Right Bias.  A judgment of Left Bias means that the media source more frequently uses language sympathetic to liberal causes, and covers stories critical towards conservatism.  A judgment of Right Bias means that the media source more frequently uses language critical of liberal causes, and covers stories sympathetic towards conservatism.  A completely unbiased source would be 'Least Bias'.";
       }
       else
       {
