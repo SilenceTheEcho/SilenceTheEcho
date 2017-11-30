@@ -32,13 +32,13 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
         var signedIn = document.createElement("p");
         signedIn.id = "signedIn";
         signedIn.textContent = "You are signed in as " + firebase.auth().currentUser["email"];
-        document.getElementById("password").appendChild(signedIn);
+        document.getElementById("signButtons").appendChild(signedIn);
       }
       else
       {
         var signedIn = document.getElementById("signedIn");
         if (signedIn)
-            document.getElementById("password").removeChild(signedIn);
+            document.getElementById("signButtons").removeChild(signedIn);
       }
 });
         
