@@ -32,18 +32,22 @@ document.querySelector('#sign-out').addEventListener('click', function(e) {
     firebase.auth().signOut();
 });
 
-// If user sign in successful, redirect to search.
-//window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search';
-if (firebase.auth().currentUser)
+function userSignedIn()
 {
-   var signedIn = document.createElement("p");
-   signedIn.id = "signedIn";
-   signedIn.textContent = "You are signed in as " + firebase.auth().currentUser["email"];
-   document.getElementById("signButtons").appendChild(signedIn);
+      // If user sign in successful, redirect to search.
+      //window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search';
+      if (firebase.auth().currentUser)
+      {
+         var signedIn = document.createElement("p");
+         signedIn.id = "signedIn";
+         signedIn.textContent = "You are signed in as " + firebase.auth().currentUser["email"];
+         document.getElementById("signButtons").appendChild(signedIn);
+      }
+      else
+      {
+         var signedIn = document.getElementById("signedIn");
+         if (signedIn)
+             document.getElementById("signButtons").removeChild(signedIn);
+      }
 }
-else
-{
-   var signedIn = document.getElementById("signedIn");
-   if (signedIn)
-       document.getElementById("signButtons").removeChild(signedIn);
-}
+userSignedIn();
