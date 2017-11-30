@@ -26,7 +26,7 @@
     <div>
       <input id="password" type="password" placeholder="Password...">
     </div>
-    <div>
+    <div id = "signButtons">
       <button id="sign-in">Sign In/Register</button>
       <button id="sign-out">Sign Out</button>
     </div>
