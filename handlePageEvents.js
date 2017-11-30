@@ -24,6 +24,7 @@
             if(errorCode == "auth/user-not-found"){
                 signedInUser = firebase.auth().createUserWithEmailAndPassword(email, password);
             }
+            else console.log(errorMessage);
         });
         
         // end add by patrick
