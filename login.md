@@ -36,18 +36,7 @@
   <!--Include firebase.js  -->
   
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAbBnEsH-88WhhZqjG0xczXXriqvYRA_y4",
-    authDomain: "silencetheecho-efa5e.firebaseapp.com",
-    databaseURL: "https://silencetheecho-efa5e.firebaseio.com",
-    projectId: "silencetheecho-efa5e",
-    storageBucket: "silencetheecho-efa5e.appspot.com",
-    messagingSenderId: "765642044089"
-  };
-  firebase.initializeApp(config);
-</script>
+<script src="initializeFirebase.js"></script>
   
   <!--Handle auth events-->
   <script>
