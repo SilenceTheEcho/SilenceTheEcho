@@ -5,10 +5,13 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
       var password = document.querySelector('#password').value
       var currentUser = firebase.auth().currentUser;
       var signedIn = false;
-      if (currentUser["email"] == email)
+      if (currentUser)
       {
-          document.getElementById("signedIn").textContent = "You are already signed in as " + currentUser["email"] + ".";
-          signedIn = true;
+          if (currentUser["email"] == email)
+          {
+              document.getElementById("signedIn").textContent = "You are already signed in as " + currentUser["email"] + ".";
+              signedIn = true;
+          }
       }
      
       // Sign in user
@@ -42,6 +45,6 @@ document.querySelector('#sign-out').addEventListener('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
     firebase.auth().signOut();
-    if (!firebase.auth().currentUser)
+    if (firebase.auth().currentUser == null)
         document.getElementById("signedIn").textContent = "You are now signed out.";
 });
