@@ -37,7 +37,7 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
       
       if (firebase.auth().currentUser && signedIn == false)
       {
-         document.getElementById("signedIn").textContent = "You are now signed in as " + firebase.auth().currentUser["email"];
+         document.getElementById("signedIn").textContent = "Your account has been registered and you are now signed in as " + firebase.auth().currentUser["email"];
       }
 });
         
