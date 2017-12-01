@@ -20,7 +20,7 @@ The goal of this site is to provide more accurate and balanced content to discer
 
 In order to provide you with a more balanced social media experience, **Silence The Echo** will first need permission to access your social media news feed.  Then, we'll review the media content providers in your feed.  Within 24 hours, we'll generate a custom-made **Echo Chamber Report** detailing the political bias and information accuracy of the media you see every day.  You'll get an e-mail or a text with a link to access your individual report.  At your request, we can give you a list of media providers who are more accurate, or less biased.  Join the ranks of people who aren't afraid to see things as they are!
 
-<a id = "loginLink" href = "https://silencetheecho.github.io/SilenceTheEcho/login.html">Log in or Register</a>
+[Log in or Register](login.html)
 
 [FAQS](faqs.html)
 
