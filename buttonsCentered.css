@@ -1,7 +1,4 @@
 button.centeredButton {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin: 1em auto 2em; 
 }
