@@ -4,13 +4,13 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
       var email = document.querySelector('#email').value;
       var password = document.querySelector('#password').value
       var currentUser = firebase.auth().currentUser;
-      if (currentUser)
-      {
-          if (currentUser["email"] == email)
+      firebase.auth().onAuthStateChanged(function(user) {
+          if (user)
           {
-              document.getElementById("signedIn").textContent = "You are already signed in as " + currentUser["email"];
+             if (user["email"] == email)
+                 document.getElementById("signedIn").textContent = "You are already signed in as " + user["email"];
           }
-      }
+      });
      
       // Sign in user
       var signedInUser = firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
