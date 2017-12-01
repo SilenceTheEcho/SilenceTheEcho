@@ -44,7 +44,7 @@
 <script src="handleAuth.js"></script> 
 
 <!--Handle page events-->
-<script src = "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/handlePageEvents.js"</script>
+<script src = "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/handlePageEvents.js"></script>
 <script>document.addEventListener("DOMContentLoaded", function() {userSignedIn();});</script>
  
 <div>
