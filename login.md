@@ -56,6 +56,9 @@
      <a href="https://silencetheecho.github.io/SilenceTheEcho/search">See it in action</a>  
 </div>
 <div>
+        <a href="recommend.html">Get Media Recommendations</a>
+</div>
+<div>
      <a href="https://silencetheecho.github.io/SilenceTheEcho/security">Security and Privacy Standards</a>  
 </div>
 
