@@ -4,13 +4,11 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
       var email = document.querySelector('#email').value;
       var password = document.querySelector('#password').value
       var currentUser = firebase.auth().currentUser;
-      var signedIn = false;
       if (currentUser)
       {
           if (currentUser["email"] == email)
           {
-              document.getElementById("signedIn").textContent = "You are already signed in as " + currentUser["email"] + ".";
-              signedIn = true;
+              document.getElementById("signedIn").textContent = "You are already signed in as " + currentUser["email"];
           }
       }
      
@@ -25,6 +23,7 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
             if(errorCode == "auth/user-not-found"){
                   signedInUser = firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
                         var user = firebase.auth().currentUser;
+                        document.getElementById("signedIn").textContent = "Your account has been registered and you are now signed in as " + user["email"];
                         user.sendEmailVerification().then(function() {
                         // Email sent.
                         }).catch(function(error) {
@@ -34,17 +33,13 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
                   });
             } else console.log(errorMessage);
       });
-      
-      if (firebase.auth().currentUser && signedIn == false)
-      {
-         document.getElementById("signedIn").textContent = "Your account has been registered and you are now signed in as " + firebase.auth().currentUser["email"];
-      }
 });
         
 document.querySelector('#sign-out').addEventListener('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
-    firebase.auth().signOut();
-    if (firebase.auth().currentUser == null)
-        document.getElementById("signedIn").textContent = "You are now signed out.";
+    firebase.auth().signOut().then(function() {
+        if (firebase.auth().currentUser == null)
+             document.getElementById("signedIn").textContent = "You are now signed out.";
+    });
 });
