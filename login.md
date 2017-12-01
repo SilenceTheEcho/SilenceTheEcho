@@ -44,8 +44,7 @@
 <script src="handleAuth.js"></script> 
 
 <!--Handle page events-->
-<script src = "https://rawgit.com/SilenceTheEcho/SilenceTheEcho/master/handlePageEvents.js"></script>
-<script>document.addEventListener("DOMContentLoaded", function() {userSignedIn();});</script>
+<script src = "handlePageEvents.js"></script>
  
 <div>
      <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
