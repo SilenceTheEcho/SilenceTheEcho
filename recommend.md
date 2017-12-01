@@ -11,8 +11,8 @@
     
     <p>Silence the Echo has a great store of more accurate and less biased media sources.  Click on either button below to request a media source that is either more accurate or less biased.</p>
     
-    <center><p><div><button id="less-biased" onClick="searchLessBiased()">Request Less Biased Media</button></p>
-    <p><div><button id="more-accurate" onClick="searchMoreAccurate()">Request More Accurate Media</button></p></center>
+<button id="less-biased" onClick="searchLessBiased()">Request Less Biased Media</button>
+<button id="more-accurate" onClick="searchMoreAccurate()">Request More Accurate Media</button>
     
     
     
