@@ -8,7 +8,7 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
           if (user)
           {
              if (user["email"] == email)
-                 document.getElementById("signedIn").textContent = "You are already signed in as " + user["email"];
+                 document.getElementById("signedIn").textContent = "You are now signed in as " + user["email"];
           }
       });
      
