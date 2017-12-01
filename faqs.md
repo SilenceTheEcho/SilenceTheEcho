@@ -68,7 +68,10 @@
    <p>
         <a href="search.html">See it in action</a>
     </p>
-    [Get Media Recommendations](recommend.html)
+    <p>
+        <a href="recommend.html">Get Media Recommendations</a>
+    </p>
+
    <p>
         <a href="security.html">Security and Privacy Standards</a>
     </p>
