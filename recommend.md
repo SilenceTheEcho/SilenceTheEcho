@@ -10,12 +10,11 @@
 <body>
     <p><b>Media Recommendations: </b></p>
     
-Silence the Echo has a great store of more accurate and less biased media sources.  Click on either button below to request a media source that is either more accurate or less biased.
+Silence the Echo has a great store of more accurate and less biased media sources.  Click on either button below to request a media source that is either less biased or more accurate.
 
 <br>
     
 <button class="centeredButton" id="less-biased" onClick="searchLessBiased()">Request Less Biased Media</button>
-
 <br>
 
 <button class="centeredButton" id="more-accurate" onClick="searchMoreAccurate()">Request More Accurate Media</button>
