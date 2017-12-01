@@ -46,6 +46,9 @@
     <div>
       <a href="https://silencetheecho.github.io/SilenceTheEcho/faqs">FAQS</a>  
     </div>
+     <div>
+      <a href="https://silencetheecho.github.io/SilenceTheEcho/recommendation">Get Media Recommendations</a>  
+    </div>
     <div>
       <a href="https://silencetheecho.github.io/SilenceTheEcho/security">Security and Privacy Standards</a>  
     </div>
