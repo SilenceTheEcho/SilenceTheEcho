@@ -26,4 +26,6 @@ In order to provide you with a more balanced social media experience, **Silence 
 
 [See it in action](search.html)
 
+[Get Media Recommendations](recommend.html)
+
 [Security and Privacy Standards](security.html)
