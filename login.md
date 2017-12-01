@@ -45,7 +45,7 @@
 
 <!--Handle page events-->
 <script src="handlePageEvents.js"></script>
-<script>window.onload(userSignedIn());</script>
+<script>document.addEventListener("DOMContentLoaded", function() {userSignedIn();});</script>
  
 <div>
      <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
