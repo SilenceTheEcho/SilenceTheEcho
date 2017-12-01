@@ -16,7 +16,6 @@ Silence the Echo has a great store of more accurate and less biased media source
     
 <button class="centeredButton" id="less-biased" onClick="searchLessBiased()">Request Less Biased Media</button>
 <br>
-
 <button class="centeredButton" id="more-accurate" onClick="searchMoreAccurate()">Request More Accurate Media</button>
     
     
