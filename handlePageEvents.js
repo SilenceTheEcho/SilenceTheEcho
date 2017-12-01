@@ -4,7 +4,13 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
       var email = document.querySelector('#email').value;
       var password = document.querySelector('#password').value
       var currentUser = firebase.auth().currentUser;
-   
+      var signedIn = false;
+      if (currentUser["email"] == email)
+      {
+          document.getElementById("signedIn").textContent = "You are already signed in as " + currentUser["email"] + ".";
+          signedIn = true;
+      }
+     
       // Sign in user
       var signedInUser = firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
        
@@ -25,25 +31,17 @@ document.querySelector('#sign-in').addEventListener('click', function(e) {
                   });
             } else console.log(errorMessage);
       });
+      
+      if (firebase.auth().currentUser && signedIn == false)
+      {
+         document.getElementById("signedIn").textContent = "You are now signed in as " + firebase.auth().currentUser["email"];
+      }
 });
         
 document.querySelector('#sign-out').addEventListener('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
     firebase.auth().signOut();
+    if (!firebase.auth().currentUser)
+        document.getElementById("signedIn").textContent = "You are now signed out.";
 });
-
-function userSignedIn()
-{
-      // If user sign in successful, redirect to search.
-      //window.location.href = 'https://silencetheecho.github.io/SilenceTheEcho/search';
-      var signedIn = document.getElementById("signedIn");
-      if (firebase.auth().currentUser)
-      {
-         signedIn.textContent = "You are signed in as " + firebase.auth().currentUser["email"];
-      }
-      else if (signedIn)
-      {
-         signedIn.textContent = "";
-      }
-}
