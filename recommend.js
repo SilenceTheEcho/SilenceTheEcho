@@ -61,6 +61,26 @@ function searchLessBiased() {
 }
 
 function searchMoreAccurate() {
+	var mediaSearch = "Mental Floss"
+	return database.ref('/Recomendations/' + mediaSearch).once('value').then(function(snapshot)
+      {
+          var mediaSource = snapshot.val(); 
+          if (mediaSource != null)
+          {
+              localStorage.setItem("found", "true");
+              localStorage.setItem("sourceName", mediaSearch);
+              localStorage.setItem("accuracy", mediaSource["Accuracy"]);
+              localStorage.setItem("bias", mediaSource["Bias"]); 
+          }
+          else
+          {
+              localStorage.setItem("found", "false");
+              localStorage.setItem("sourceName", mediaSearch);
+          }
+          location.href = "https://silencetheecho.github.io/SilenceTheEcho/searchresults"; 
+      });
+	
+	
 	//location.href = "https://silencetheecho.github.io/SilenceTheEcho/searchresults";
-	location.href = "recommendResults.html";
+	//location.href = "recommendResults.html";
 }
