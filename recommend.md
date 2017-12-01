@@ -18,6 +18,23 @@ Silence the Echo has a great store of more accurate and less biased media source
 <br>
 <button class="centeredButton" id="more-accurate" onClick="searchMoreAccurate()">Request More Accurate Media</button>
     
+<div>
+     <a href="https://silencetheecho.github.io/SilenceTheEcho">Home</a>  
+</div>
+<div>
+    <a href="https://silencetheecho.github.io/SilenceTheEcho/login">Log in or Register</a>
+</div>
+<div>
+     <a href="https://silencetheecho.github.io/SilenceTheEcho/faqs">FAQS</a>  
+</div>
+<div>
+     <a href="https://silencetheecho.github.io/SilenceTheEcho/search">See it in action</a>  
+</div>
+
+<div>
+     <a href="https://silencetheecho.github.io/SilenceTheEcho/security">Security and Privacy Standards</a>  
+</div>
+
     
     
     
