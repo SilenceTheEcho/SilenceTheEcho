@@ -25,6 +25,8 @@
   <!--Include firebase.js  -->
   
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script src="initializeFirebase.js"></script>
+
 <script src="passwordReset.js"></script>
 
 </body>
